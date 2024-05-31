@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  helm-external:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-01T00:34:36.216717+03:00"
+    description: A Helm chart for Kubernetes external availability monitoring
+    digest: 03b96e72f9eea45ceffab3fafbe0e1789ec826ab19c6ff778783b2990d280928
+    name: helm-external
+    type: application
+    urls:
+    - https://irynynkn.github.io/monitoring-charts/charts/helm-external-0.1.0.tgz
+    version: 0.1.0
+  helm-internal:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-06-01T00:34:36.216881+03:00"
+    description: A Helm chart for monitoring services in Kubernetes cluster
+    digest: 52a96a4e887d9cf4d7d6afc1ab6abea4e6e893d90952c2576da68379980e0cbe
+    name: helm-internal
+    type: application
+    urls:
+    - https://irynynkn.github.io/monitoring-charts/charts/helm-internal-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-01T00:34:36.216439+03:00"
