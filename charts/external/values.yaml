@@ -1,0 +1,9 @@
+# values.yaml
+service:
+  type: ClusterIP
+
+extraEnv:
+  - name: EXTERNAL_PING_HOST
+    value: google.com
+  - name: EXTERNAL_PING_ALERT_EMAIL
+    value: iryninak03@gmail.com
