@@ -128,6 +128,10 @@ spec:
                 configMapKeyRef:
                   name: app-configmap
                   key: is-external
+          resources:
+            limits:
+              cpu: "500m"
+              memory: "1Gi"
           ports:
             - containerPort: 80
               hostPort: 8000
